@@ -72,13 +72,14 @@ p {
   height: 100%;
   opacity: 0;
   transition: 0.8s;
-  z-index: 9;
+  z-index: -1;  /* 뒤로 빼서 클릭되지 않게 */
 }
 
 /* 선택 효과 */
 #intro .left_cover.active {
   width: 50%;
   opacity: 0.9;
+  z-index: 9; /* 클릭되면 앞으로 옴 */
 }
 
 /* 선택 반대편 스케일 축소 효과 */
@@ -124,9 +125,11 @@ p {
   transform: translateY(2000px);
   transition-delay: 0.5s;
   transition-duration: 0.8s;
+  opacity: 0;
 }
 
 #intro .left_cover.active .center_box {
   transform: translateY(0);
+  opacity: 1;
 }
 
