@@ -64,7 +64,8 @@ p {
   padding: 0 50px;
 }
 
-#intro .left_cover {
+/* 좌측 타이틀 커버 */
+#intro .left .cover {
   position: fixed;
   left: 0%; top: 0;
   background: #b97d10;
@@ -75,29 +76,34 @@ p {
   z-index: -1;  /* 뒤로 빼서 클릭되지 않게 */
 }
 
-/* 선택 효과 */
-#intro .left_cover.active {
+/* 우측 타이틀 커버 */
+#intro .right .cover {
+  position: fixed;
+  right: 0%; top: 0;
+  background: #105fb9;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.8s;
+  z-index: -1;  /* 뒤로 빼서 클릭되지 않게 */
+}
+
+/* 타이틀 커버 선택 효과 */
+#intro .cover.active {
   width: 50%;
   opacity: 0.9;
   z-index: 9; /* 클릭되면 앞으로 옴 */
 }
 
 /* 선택 반대편 스케일 축소 효과 */
+#intro > .left.scale-out,
 #intro > .right.scale-out {
   transform: scale(0.8);
   opacity: 0.6;
   filter: grayscale(100);
 }
 
-
-
-#intro .left_cover,
-#intro .right_cover {
-
-}
-
-#intro .left_cover h2,
-#intro .right_cover h2 {
+#intro .cover h2 {
   text-shadow: 0px 0px 4px rgba(0,0,0,0.2);
   margin-bottom: 30px;
 }
@@ -128,8 +134,19 @@ p {
   opacity: 0;
 }
 
-#intro .left_cover.active .center_box {
+#intro .cover.active .center_box {
   transform: translateY(0);
   opacity: 1;
 }
 
+.btn_close {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: url('./images/btn_close.svg');
+  opacity: 0.8;
+}
+
+.btn_close:hover {
+  opacity: 1;
+}

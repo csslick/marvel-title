@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1"
+	 id="layer_1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 88 88"
+	 style="enable-background:new 0 0 88 88;fill:#ffffff;" xml:space="preserve">
+<g transform="translate(0,-952.36218)">
+	<path d="M44,952.4c-24.3,0-44,19.7-44,44c0,24.3,19.7,44,44,44c24.3,0,44-19.7,44-44C88,972.1,68.3,952.4,44,952.4z M44,956.4
+		c22.1,0,40,17.9,40,40c0,22.1-17.9,40-40,40c-22.1,0-40-17.9-40-40C4,974.2,21.9,956.4,44,956.4z"/>
+	<path d="M28.8,979.4c-1.1,0.1-1.9,1.1-1.8,2.2c0,0.5,0.3,0.9,0.6,1.3l13.6,13.6l-13.6,13.6c-0.8,0.8-0.8,2.1,0,2.8
+		c0.8,0.8,2.1,0.8,2.8,0l0,0L44,999.2l13.6,13.6c0.8,0.8,2.1,0.8,2.8,0c0.8-0.8,0.8-2.1,0-2.8l0,0l-13.6-13.6l13.6-13.6
+		c0.8-0.8,0.8-2,0-2.8c-0.4-0.4-0.9-0.6-1.5-0.6c-0.5,0-1,0.2-1.4,0.6L44,993.5l-13.6-13.6c-0.4-0.4-0.9-0.6-1.4-0.6
+		C28.9,979.3,28.8,979.3,28.8,979.4z"/>
+</g>
+</svg>
